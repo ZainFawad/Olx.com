@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+.nav1motor p{
+    font-family: Roboto;
+    font-weight: 700;
+}
+.nav1property p{
+    font-family: Roboto;
+    font-weight: 700;
+}
+.nav1property i{
+    font-size: 42px;
+}
+.nav1motor i{
+    font-size: 42px;
+}
+.nav1property:hover{
+    color: blue;
+}
+.nav1motor:hover{
+    color: blue;
+}
+.mainimgsec{
+    max-width: 100%;
+}
+.mainimgdiv{
+    width: 50%;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+.mainimgdiv img{
+    border-radius: 5px;
+
+}
+.h{
+    border-bottom: 1px solid #666666;
+}
+.input1{
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.navul li a:hover{
+    color: blue;
+}
+.catagories div{
+    margin-top: 30px;
+}
+.catagories div h1{
+    font-family: Roboto;
+    font-size: 42px;
+    font-weight: 600;
+}
+.images div div img{
+    width: 88px;
+    height: 88px;
+}
+.images div div{
+    padding: 5px;
+}
+.images{
+    text-align: center;
+}
+.mobilecc1 div h1{
+    font-family: Roboto;
+    font-size: 36px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.mobilecc1{
+    margin-top: 40px;
+}
+.mobilecc2{
+    margin-top: 40px;
+}
+.mobilecc2 div h1{
+    font-family: Roboto;
+    font-size: 36px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.mobilecc3{
+    margin-top: 40px;
+}
+.mobilecc3 div h1{
+    font-family: Roboto;
+    font-size: 36px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.mobilecc4{
+    margin-top: 40px;
+}
+.mobilecc4 div h1{
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}

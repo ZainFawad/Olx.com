@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- header start -->
+  <!-- navbar one -->
+  <div class="h">
+    <header class="nbar">
+      <nav class="navbar navbar-expand-md ">
+        <div class="container-fluid">
+          <a class="navbar-brand logo ms-4" href="#"><img class="py-1 px-1"
+              src="./olximages/olxlogo-removebg-preview.png" alt="" width="60px" height="50px" /></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto ul">
+              <li class="nav-item ms-3">
+                <a class="nav-link" aria-current="page" href="#">
+                  <span class="d-flex nav1motor">
+                    <!-- <img src="./olximages/download-removebg-preview.png" alt="" width="50px" height="50px" /> -->
+                    <i class="fa-solid fa-car"></i>
+                    <p class="mt-3 ms-2">Motors</p>
+                  </span>
+                </a>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link" href="#">
+                  <span class="d-flex nav1property">
+                    <!-- <img src="./olximages/images-removebg-preview.png" alt="" width="40px" height="40px" /> -->
+                    <i class="fa-regular fa-building"></i>
+                    <p class="mt-3 ms-2">Property</p>
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="row m-0">
+        <!-- input field start -->
+        <!-- field one start -->
+        <div class="col-lg-3 col-md-12 col-sm-12">
+          <div class="input-group mb-3 container-fluid">
+            <input type="text" class="input1" placeholder="Pakistan" aria-label="Text input with dropdown button">
+            <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+              aria-expanded="false"></button>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="#">Choose current location</a></li>
+              <li><a class="dropdown-item" href="#">See ads in all Pakistan</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- field one end -->
+        <!-- field two start -->
+        <div class="col-lg-9 col-md-12 col-sm-12">
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Find Cars, Mobile Phones and more...."
+              aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i
+                class="fa-solid fa-magnifying-glass"></i></button>
+          </div>
+        </div>
+        <!-- field two end -->
+        <!-- input field end -->
+      </div>
+  </div>
+  </header>
+  </div>
+
+  <!-- navbar one -->
+  <!-- navbar two -->
+  <nav class="navbar navbar-expand-md">
+    <div class="container-fluid">
+      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav container-fluid navul">
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown link
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Mobile Phones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Cars</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Motorcycles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Houses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Video-Audios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tablets</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Land & Plots</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar two -->
+  <!-- header end -->
+  <!-- body start -->
+  <section class="mainimgsec">
+    <div class="mainimgdiv">
+      <img src="./olximages/main.jpg" alt="">
+    </div>
+  </section>
+  <section class="catagories container-fluid">
+    <div>
+      <h1>All catagories</h1>
+    </div>
+    <div class="images row m-0">
+      <div class="col-lg-1 col-md-2 col-sm-2">
+        <div><img src="./olximages/mobile.png" alt="">
+          <p>Mobiles</p>
+        </div>
+      </div>
+      <div class="col-lg-1 col-md-2 col-sm-2">
+        <div><img src="./olximages/vehicles.png" alt="">
+          <p>Vehicles</p>
+        </div>
+      </div>
+      <div class="col-lg-1 col-md-2 col-sm-2">
+        <div><img src="./olximages/propertysale.png" alt="">
+          <p>Property For Sale</p>
+        </div>
+      </div>
+      <div class="col-lg-1 col-md-2 col-sm-2">
+        <div><img src="./olximages/propertyrent.png" alt="">
+          <p>Property For Rent</p>
+        </div>
+      </div>
+      <div class="col-lg-1 col-md-2 col-sm-2">
+        <div><img src="./olximages/electronicshomeapp.png" alt="">
+          <p>Electornic & Home Appliances</p>
+        </div>
+      </div>
+      <div class="col-lg-1 col-md-2 col-sm-2">
+        <div><img src="./olximages/bikes.png" alt="">
+          <p>Bikes</p>
+        </div>
+      </div>
+      <div class="col-lg-1 col-md-2 col-sm-2">
+        <div><img src="./olximages/buisnessindagr.png" alt="">
+          <p>Business, Industrial & Agriculture</p>
+        </div>
+      </div>
+      <div class="col-lg-1 col-md-2 col-sm-2">
+        <div><img src="./olximages/services.png" alt="">
+          <p>Services</p>
+        </div>
+      </div>
+      <div class="col-lg-1 col-md-2 col-sm-2">
+        <div><img src="./olximages/job.png" alt="">
+          <p>Jobs</p>
+        </div>
+      </div>
+      <div class="col-lg-1 col-md-2 col-sm-2">
+        <div><img src="./olximages/animal.png" alt="">
+          <p>Animals</p>
+        </div>
+      </div>
+      <div class="col-lg-1 col-md-2 col-sm-2">
+        <div><img src="./olximages/furniture.png" alt="">
+          <p>Furniture & Home Decor</p>
+        </div>
+      </div>
+      <div class="col-lg-1 col-md-2 col-sm-2">
+        <div><img src="./olximages/fashion.png" alt="">
+          <p>Fashion & Beauty</p>
+        </div>
+      </div>
+      <div class="col-lg-1 col-md-2 col-sm-2">
+        <div><img src="./olximages/books.png" alt="">
+          <p>Books,Sports & Hobbies</p>
+        </div>
+      </div>
+      <div class="col-lg-1 col-md-2 col-sm-2">
+        <div><img src="./olximages/kids.png" alt="">
+          <p>Kids</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 1st card section start -->
+  <section class="mobilecc1 container-fluid">
+    <div>
+      <h1>Mobile Phones</h1>
+    </div>
+    <div>
+      <div class="1stcarddiv row m-0">
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div>
+            <div class="card">
+              <img src="./olximages/mobilec1.jpg" class="card-img-top" alt="..." width="200px" height="190px">
+              <div class="card-body">
+                <h5 class="card-title">Rs 80,000</h5>
+                <p class="card-text">Samsung Galaxy Z Flip 5</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div>
+            <div class="card">
+              <img src="./olximages/mobilec22.jpg" class="card-img-top" alt="..." width="200px" height="190px">
+              <div class="card-body">
+                <h5 class="card-title">Rs 265,000</h5>
+                <p class="card-text">iPhone 13 Pro Max PTA 256GB</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div>
+            <div class="card">
+              <img src="./olximages/mobilec3.jpg" class="card-img-top" alt="..." width="200px" height="190px">
+              <div class="card-body">
+                <h5 class="card-title">Rs 66,500</h5>
+                <p class="card-text">iphone 12 Factory Unlock</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div>
+            <div class="card">
+              <img src="./olximages/mobilec4.jpg" class="card-img-top" alt="..." width="200px" height="190px">
+              <div class="card-body">
+                <h5 class="card-title">Rs 56,999</h5>
+                <p class="card-text">Google Pixel 6 Waterpack 8/128GB</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 1st card section end -->
+  <!-- 2nd card section start -->
+  <section class="mobilecc2 container-fluid">
+    <div>
+      <h1>Cars</h1>
+    </div>
+    <div>
+      <div class="1stcarddiv row m-0">
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div>
+            <div class="card">
+              <img src="./olximages/carc1.jpg" class="card-img-top" alt="..." width="200px" height="190px">
+              <div class="card-body">
+                <h5 class="card-title">Rs 2,950,000</h5>
+                <p class="card-text">Honda Civic Hybrid MXB 2006/2021</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div>
+            <div class="card">
+              <img src="./olximages/carc2.jpg" class="card-img-top" alt="..." width="200px" height="190px">
+              <div class="card-body">
+                <h5 class="card-title">Rs 2,490,000</h5>
+                <p class="card-text">Suzuki Wagon R VXR 2021</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div>
+            <div class="card">
+              <img src="./olximages/carc3.jpg" class="card-img-top" alt="..." width="200px" height="190px">
+              <div class="card-body">
+                <h5 class="card-title">Rs 8,560,000</h5>
+                <p class="card-text">Hyundai Sonata 2022 2.0</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div>
+            <div class="card">
+              <img src="./olximages/carc4.jpg" class="card-img-top" alt="..." width="200px" height="190px">
+              <div class="card-body">
+                <h5 class="card-title">Rs 3,800,000</h5>
+                <p class="card-text">Toyota Premio 2007/2012</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 2nd card section end -->
+  <!-- 3rd card section start -->
+  <section class="mobilecc3 container-fluid">
+    <div>
+      <h1>Bikes & Motorcycles</h1>
+    </div>
+    <div>
+      <div class="1stcarddiv row m-0">
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div>
+            <div class="card">
+              <img src="./olximages/bikec1.jpg" class="card-img-top" alt="..." width="200px" height="190px">
+              <div class="card-body">
+                <h5 class="card-title">Rs 450,000</h5>
+                <p class="card-text">Honda CB150F 2024 Special Edition</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div>
+            <div class="card">
+              <img src="./olximages/bikec2.jpg" class="card-img-top" alt="..." width="200px" height="190px">
+              <div class="card-body">
+                <h5 class="card-title">Rs 390,000</h5>
+                <p class="card-text">Suzuki Gixxer 125 Oringinal</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div>
+            <div class="card">
+              <img src="./olximages/bikec3.jpg" class="card-img-top" alt="..." width="200px" height="190px">
+              <div class="card-body">
+                <h5 class="card-title">Rs 126,000</h5>
+                <p class="card-text">Honda CD 70 ( Model 2020 )</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div>
+            <div class="card">
+              <img src="./olximages/bikec4.jpg" class="card-img-top" alt="..." width="200px" height="190px">
+              <div class="card-body">
+                <h5 class="card-title">Rs 1,650,000</h5>
+                <p class="card-text">chopper V4 fresh import 2024</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 3rd card section end -->
+  <!-- 4th card section start -->
+  <section class="mobilecc4 container-fluid">
+    <div>
+      <h1>Tablets</h1>
+    </div>
+    <div>
+      <div class="1stcarddiv row m-0">
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div>
+            <div class="card">
+              <img src="./olximages/tabc1.jpg" class="card-img-top" alt="..." width="200px" height="190px">
+              <div class="card-body">
+                <h5 class="card-title">Rs 107,999</h5>
+                <p class="card-text">Ipad 10 GENERATION 64 GB box pack non active stock available</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div>
+            <div class="card">
+              <img src="./olximages/tabc2.jpg" class="card-img-top" alt="..." width="200px" height="190px">
+              <div class="card-body">
+                <h5 class="card-title">Rs 155,000</h5>
+                <p class="card-text">Tab Samsung s9 5g / Samsung Tab s9</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div>
+            <div class="card">
+              <img src="./olximages/tabc3.jpg" class="card-img-top" alt="..." width="200px" height="190px">
+              <div class="card-body">
+                <h5 class="card-title">Rs 259,999</h5>
+                <p class="card-text">ipad pro m4 (2024) 11 inch Wifi 256gb full box</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div>
+            <div class="card">
+              <img src="./olximages/tabc44.jpg" class="card-img-top" alt="..." width="200px" height="190px">
+              <div class="card-body">
+                <h5 class="card-title">Rs 90,000</h5>
+                <p class="card-text">Xiaomi Pad 5 | Gaming Tablet | 256 GB | 30 Day Warranty</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 4th card section end -->
+  <!-- footer start -->
+  <section class="sectionfooter container-fluid bg-body-tertiary p-4 mt-5">
+    <div class="row m-0">
+      <div class="col-lg-2 col-md-2 col-sm-2">
+        <div>
+          <p>POPULAR CATAGORIES</p>
+          <ul>
+            <li>Cars</li>
+            <li>Flats for rent</li>
+            <li>Moblile Phones</li>
+            <li>jobs</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-2">
+        <div>
+          <p>TRENDING SEARCHES</p>
+          <ul>
+            <li>Bikes</li>
+            <li>Watches</li>
+            <li>Books</li>
+            <li>Dogs</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-2">
+        <div>
+          <p>ABOUT US</p>
+          <ul>
+            <li>About Dubizzle Group</li>
+            <li>Olx Blog</li>
+            <li>Contact Us</li>
+            <li>Olx for Business</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-2">
+        <div>
+          <p>OLX</p>
+        </div>
+        <ul>
+          <li>Help</li>
+          <li>Sitemap</li>
+          <li>Terms of use</li>
+          <li>Privacy Policy</li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-2">
+        <div>
+          <p>FOLLOW US</p>
+          <i class="fa-brands fa-twitter m-1"></i>
+          <i class="fa-brands fa-facebook m-1"></i>
+          <i class="fa-brands fa-youtube m-1"></i>
+          <i class="fa-brands fa-instagram m-1"></i>
+          <br>
+          <img src="./olximages/1.svg" alt="" width="70px" height="50px">
+          <img src="./olximages/2.svg" alt="" width="70px" height="50px">
+          <img src="./olximages/3.svg" alt="" width="70px" height="50px">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer end -->
+  <!-- body end -->
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+  integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+</html>
